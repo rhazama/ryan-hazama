@@ -10,11 +10,32 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <a href="../html/home.html"><img src="../images/rLogo.png" height="40" width="40"> Ryan Hazama </a></a>
+    <nav class="navbar">
+        <a class="nav-logo page-title" href="../html/home.html">
+            <img src="../images/rLogo.png" height="40" width="40">
+            <span>Ryan Hazama</span>
+        </a>
+    </nav>
+    
+    <main id="main">
+        <div class="contact">
+            <header>
+                <h1 class="page-title">contact</h1>
+                <h4 class="page-subtitle">lets connect - contact me here or directly at <a class="text-link" href="mailto:rhazama01@gmail.com" target="_blank" rel="noreferrer">rhazama01@gmail.com</a>!</h4>
+            </header>
+            <form>
+                <label class="hidden">name</label>
+                <input type="text" placeholder="name" name="name" id="name"></input>
+                <label class="hidden">email</label>
+                <input type="text" placeholder="email" name="email" id="email"></input>
+                <label class="hidden">email</label>
+                <input type="text" placeholder="subject" name="subject" id="subject"></input>
+                <label class="hidden">message</label>
+                <textarea type="message" placeholder="message" rows="8" id="message"></textarea>
+                <button class="btn-sm submit">send</button>
+            </form>
         </div>
-    </header>
+    </main>
 
     <footer>
         <div class="socials-links">
