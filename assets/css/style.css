@@ -1,19 +1,23 @@
+footer {
+    background-color: #F6F1DD;
+}
+
 footer .socials {
     text-align: center;
     padding-bottom: 25px;
-    color: #4b4c4d
+    color: #4E2D37
 }
 
 footer .tabs {
     text-align: center;
     padding-bottom: 25px;
-    color: #4b4c4d
+    color: #4E2D37
 }
 
 
 footer .socials img {
     text-align: 24px;
-    color: inherit;
+    color: #4E2D37;
     width: 40px;
     height: 40px;
     line-height: 38px;
@@ -36,7 +40,7 @@ footer ul {
 }
 
 footer ul li a {
-    color: inherit;
+    color: #4E2D37;
     text-decoration: none;
     opacity: 0.8;
 }
@@ -50,10 +54,9 @@ footer ul li a:hover {
     opacity: 1;
 }
 
-
 footer .footer-wrapper {
     margin-top:  15px;
     text-align: center;
     font-size: 13px;
-    color: #aaa
+    color: #4E2D37
 }
